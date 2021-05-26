@@ -1,0 +1,7 @@
+gcloud
+google-cloud
+google-cloud-pubsub
+pymongo
+dnspython
+loguru
+pupdb
