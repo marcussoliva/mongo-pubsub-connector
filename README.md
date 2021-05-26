@@ -1,7 +1,13 @@
 # Mongo Pub/Sub Connector
-Sync data from MongoDB to Google Cloud Pub Sub 
-
+Sync data from MongoDB to Google Cloud Pub Sub  
+ 
 <img src="https://raw.githubusercontent.com/marcussoliva/mongo-pubsub-connector/master/logo.png" alt="Mongo PubSub Connector Logo" width="600" height="200"/>
+<br/>
+<br/>
+
+[![Build Status](https://travis-ci.com/marcussoliva/mongo-pubsub-connector.svg?branch=master)](https://travis-ci.com/marcussoliva/mongo-pubsub-connector) 
+<br/> <br/>
+
 
 
 ## What is it?
