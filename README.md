@@ -20,7 +20,7 @@ others Google Cloud Services (GS, Composer, Dataproc, Dataflow and others).
 ### Running the daemon
 One of the important things to note about Mongo Pub/Sub Connector is that you need set ENVs variables: 
 ```docker
-docker run  -e MONGO_URI='your-mongodb-uri'  -e GOOGLE_PROJECT_ID='google-project-id'  -e  GOOGLE_PUBSUB_TOPIC_NAME='your-google-pubsub-topic-name' -e GOOGLE_APPLICATION_CREDENTIALS=/tmp/keys/credentials.json -v your-credentials-path-json-file:/tmp/keys/credentials.json  --name mongo-pubsub-connector solivavinicius/mongo-pubsub-connector:latest
+docker run  -e MONGO_URI='your-mongodb-uri'  -e GOOGLE_PROJECT_ID='your-google-project-id'  -e  GOOGLE_PUBSUB_TOPIC_NAME='your-google-pubsub-topic-name' -e GOOGLE_APPLICATION_CREDENTIALS=/tmp/keys/credentials.json -v your-credentials-path-json-file:/tmp/keys/credentials.json  --name mongo-pubsub-connector solivavinicius/mongo-pubsub-connector:latest
 ```
 
 
